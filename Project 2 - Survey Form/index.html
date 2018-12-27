@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id="formholder">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+      <form id="survey-form" action="index.html" method="post">
+        <label for="name"  id="name-label">* Name:</label>
+        <input type="text" id="name" placeholder=" Enter your name" required>
+        <label for="email" id="email-label">* Email:</label>
+        <input type="email" id="email" placeholder=" Enter your Email" required>
+        <label for="number" id="number-label">* Age:</label>
+        <input type="number" id="number" placeholder=" Age" required min="1" max="125">
+
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown" required>
+          <option disabled value="Select an option">Select an option</option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <div id="Ropts">
+          <div id="recommend">* How likely is that you would recommend freeCodeCamp to a friend?</div>
+          <div id="recommend-opts">
+            <label for="opt1" class="S1">
+            <input type="radio" name="recommendation-options" value="Definitely" id="opt1" required>Definitely</label>
+            <label for="opt2" class="S1">
+            <input type="radio" name="recommendation-options" value="Definitely" id="opt2" required>Maybe</label>
+            <label for="opt3" class="S1">
+            <input type="radio" name="recommendation-options" value="Definitely" id="opt3" required>Not sure</label>
+          </div>
+        </div>
+
+        <div id="proj">
+          <div id="projQ">
+            Things that should be improved in the future
+            (Check all that apply):
+          </div>
+          <div id="projOpts">
+            <label for="popt1" class="S1">
+            <input type="checkbox" name="proj-options" value="Front-end Projects" id="popt1" required>Front-end Projects</label>
+            <label for="popt2" class="S1">
+            <input type="checkbox" name="proj-options" value="Back-end Projects" id="popt2" required>Back-end Projects</label>
+            <label for="popt3" class="S1">
+            <input type="checkbox" name="proj-options" value="Data Visualization" id="popt3" required>Data Visualization</label>
+            <label for="popt4" class="S1">
+            <input type="checkbox" name="proj-options" value="Challenges" id="popt4" required>Challenges</label>
+            <label for="popt5" class="S1">
+            <input type="checkbox" name="proj-options" value="Open Source Community" id="popt5" required>Open Source Community</label>
+            <label for="popt6" class="S1">
+            <input type="checkbox" name="proj-options" value="Gitter help rooms" id="popt6" required>Gitter help rooms</label>
+            <label for="popt7" class="S1">
+            <input type="checkbox" name="proj-options" value="Videos" id="popt7" required>Videos</label>
+            <label for="popt8" class="S1">
+            <input type="checkbox" name="proj-options" value="City Meetups" id="popt8" required>City Meetups</label>
+            <label for="popt9" class="S1">
+            <input type="checkbox" name="proj-options" value="Wiki" id="popt9" required>Wiki</label>
+            <label for="popt10" class="S1">
+            <input type="checkbox" name="proj-options" value="Forum" id="popt10" required>Forum</label>
+            <label for="popt11" class="S1">
+            <input type="checkbox" name="proj-options" value="Additional Courses" id="popt11" required>Additional Courses</label>
+          </div>
+        </div>
+
+        <div class="suggest">
+          <div class="suggestion">
+            Any Comments or Suggestions?
+          </div>
+          <div class="suggestion-box">
+            <textarea name="name" rows="4" cols="30" placeholder="Enter your comment here..."></textarea>
+          </div>
+        </div>
+
+        <button type="submit" id="submit">SUBMIT</button>
+
+      </form>
+
+    </div>
+  </body>
+</html>
