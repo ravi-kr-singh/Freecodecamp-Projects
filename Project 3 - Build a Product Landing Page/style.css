@@ -1,0 +1,267 @@
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+  background-color: rgba(241, 231, 254, 1);
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1{
+  width:8.33%;
+}
+.col-1-5{
+  width: 12.5%;
+}
+.col-2{
+  width:16.66%;
+}
+.col-3{
+  width:25%;
+}
+.col-4{
+  width:33.33%;
+}
+.col-4-5{
+  width: 37.5%;
+}
+.col-5{
+  width:41.66%;
+}
+.col-6{
+  width:50%;
+}
+.col-7{
+  width:58.33%;
+}
+.col-7-5{
+  width:62.5%
+}
+.col-8{
+  width:66.66%;
+}
+.col-9{
+  width:75%;
+}
+.col-10{
+  width:83.33%;
+}
+.col-11{
+  width:91.66%;
+}
+.col-12{
+  width:100%;
+}
+#header{
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: rgba(241, 231, 254, 1);
+
+}
+#nav-bar{
+  text-align: right;
+  padding-right: 20px;
+}
+.nav-link{
+  width: auto;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-left: 8%;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: bolder;
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+}
+#header-img{
+  margin-top: 1.5%;
+  width:55%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+
+.motto{
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-family:monospace;
+  letter-spacing: 3px;
+  font-size: 22px;
+}
+@media only screen and (max-width:591px) {
+  #header{
+    display: block;
+    height:120px;
+  }
+  .col-8,.imageholder{
+    width:100%;
+  }
+  .motto{
+    margin-top: 140px;
+    font-size: 18px;
+  }
+  #nav-bar{
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+#form{
+  display: block;
+}
+input{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+  display: block;
+}
+#email{
+  width:20%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: left;
+}
+#submit{
+  background-color: rgba(41, 241, 195, 1);
+  border: 0px;
+  width: 12%;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding:4px 8px 4px 8px;
+  border-radius: 5px;
+}
+#submit:hover{
+  letter-spacing: 3px;
+}
+@media only screen and (max-width:1114px) {
+  #email{
+    width:35%;
+  }
+  #submit{
+    font-size: 16px;
+    width:30%
+
+  }
+
+
+}
+
+.feature{
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-left: 20%;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.desc{
+  margin-right: 20%;
+  margin-left: 20%;
+  font-family: cursive;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+#first{
+  margin-top: 100px;
+}
+#video{
+  border: 0px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Price{
+  border:1px solid black;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.service{
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.05);
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+.rupee{
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+}
+.detail{
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
+  padding: 5px;
+  line-height: 50px;
+}
+.select{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+  padding:10px;
+  font-size: 18px;
+  font-family: monospace;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: rgba(25, 181, 254, 1);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+.select:hover{
+  letter-spacing: 3px;
+}
+.lowerstrip{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.05);
+  display: block;
+  margin-bottom: 15px;
+}
+.copyright{
+  margin-top: 15px;
+  text-align: right;
+  padding-bottom: 5px;
+}
+.down{
+  margin-left: 2%;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: bolder;
+  font-family: serif;
+
+}
