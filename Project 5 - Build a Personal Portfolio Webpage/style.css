@@ -1,0 +1,158 @@
+*, *:before, *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+  overflow-x: hidden;
+}
+#navbar{
+  width: 100%;
+  height:60px;
+  position: fixed;
+  top:0px;
+  right:0px;
+  z-index: 1;
+  text-align: right;
+  padding-right:30px;
+  padding-top: 10px;
+
+
+}
+.nav-link{
+  margin-left: 10%;
+  font-size: 20px;
+  color: rgba(22, 160, 133, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+#welcome-section{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(41, 241, 195, 0.16);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 22px;
+}
+.welcome-heading{
+  padding-top: 40vh;
+}
+.welcome-subheading{
+  color: rgba(22, 160, 133, 1);
+  font-weight: lighter;
+}
+#projects{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-tile{
+  width:33.33%;
+  height:100vh;
+  padding: 30px;
+  padding-top: 80px;
+}
+.proj{
+  height: 100%;
+  width: 100%;
+  border:1px solid rgba(22, 160, 133, 1);
+
+}
+.proj-img{
+  width: 100%;
+  height: 85%;
+}
+.proj-detail{
+  font-weight:bolder;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 5px;
+}
+.pro{
+  margin: 40px 0px 0px 0px;
+  text-align: center;
+  font-weight:bolder;
+  font-family: monospace;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.show-all{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 2px solid rgba(22, 160, 133, 1);
+  text-align: center;
+  font-weight:bolder;
+  font-family: monospace;
+  font-size: 25px;
+  letter-spacing: 2px;
+  display: block;
+  padding: 10px;
+}
+.show-all:hover{
+  background-color: rgba(22, 160, 133, 1);
+  color: white;
+  cursor: pointer;
+}
+.third{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight:bolder;
+  font-family: monospace;
+  font-size: 25px;
+}
+#contact{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 230, 64,0.3);
+  display: inline-block;
+}
+.git{
+  width:15%;
+  height: 120px;
+  margin: 20px auto 50px auto;
+
+}
+#profile-link{
+  padding-top: 45px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight:bolder;
+  font-family: monospace;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+}
+#profile-link:hover{
+  letter-spacing: 3px;
+}
+@media only screen and (max-width:388px){
+  .nav-link{
+    display:block;
+    margin-top:10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
