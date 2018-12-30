@@ -1,5 +1,5 @@
 # Freecodecamp-Projects
-These projects are a part of 'Responsive Web Design Certification (300 hours) Certification' on https://www.freecodecamp.org .
+These projects are a part of 'Responsive Web Design Certification (300 hours)' on https://www.freecodecamp.org .
 
 There are total 5 PROJECTS which are as follow :-
 1. Project 1 : Build a Tribute Page
@@ -8,4 +8,4 @@ There are total 5 PROJECTS which are as follow :-
 4. Project 4 : Build a Technical Documentation Page
 5. Project 5 : Build a Personal Portfolio Webpage
 
-All the above 5 PROJECTS have been built by me using only core HTML & CSS .No frameworks have been used in these projects.
+All the above 5 PROJECTS have been built by me using only core HTML & CSS .No frameworks have been used in these projects. Only CSS flexbox has been used.
