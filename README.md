@@ -8,4 +8,4 @@ There are total 5 PROJECTS which are as follow :-
 4. Project 4 : Build a Technical Documentation Page   (View: https://codepen.io/rkcity16/pen/EGwRrW )
 5. Project 5 : Build a Personal Portfolio Webpage     (View: https://codepen.io/rkcity16/pen/QzOWMy )
 
-All the above 5 PROJECTS have been built by me using only core HTML & CSS .No frameworks have been used in these projects. Only CSS flexbox has been used.
+All the above 5 PROJECTS have been built by me using only core HTML & CSS .No framework or library have been used in these projects.
